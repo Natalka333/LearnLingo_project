@@ -1,0 +1,55 @@
+.teacherDetails {
+    margin-top: 16px;
+    border-top: 1px solid #eee;
+    padding-top: 16px;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.reviews {
+    margin-bottom: 20px;
+}
+
+.review {
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.reviewerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.stars {
+    color: #f5a623;
+}
+
+.comment {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.bookBtn {
+    background-color: #fbc02d;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.bookBtn:hover {
+    background-color: #f9a825;
+}
