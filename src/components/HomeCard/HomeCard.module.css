@@ -1,0 +1,127 @@
+.container {
+    padding: 0 64px 32px 64px;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* .hero {
+    display: flex;
+    background: transparent;
+    border-radius: 24px;
+    overflow: hidden;
+    gap: 24px;
+} */
+.hero {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    /* убрали общий фон */
+}
+
+.left {
+    width: 720px;
+    height: 530px;
+    background-color: #F8F8F8;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 56px;
+    width: 548px;
+    margin: 98px 108px 0 64px;
+}
+
+.left mark {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 46px;
+    background-color: #ffd85a;
+    padding: 0 6px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+
+.left p {
+    margin: 32px 185px 64px 64px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    /* Regular */
+    color: #555;
+    max-width: 471px;
+}
+
+.cta {
+    background: #ffc21f;
+    padding: 16px 88px;
+    border: none;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 389px 98px 64px;
+    width: 267px;
+    height: 60px;
+    font-family: 'Roboto', bold;
+    font-size: 18px;
+}
+
+.right {
+    width: 568px;
+    height: 530px;
+    background: #fdecb6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+}
+
+.imageContainer img {
+    width: 339px;
+    height: 339px;
+    object-fit: cover;
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border: 1.5px dashed #ffd85a;
+    border-radius: 30px;
+    margin-top: 24px;
+    padding: 40px 122px;
+    font-family: 'Roboto', sans-serif;
+    gap: 32px;
+
+}
+
+.statItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    white-space: nowrap;
+}
+
+.number {
+    font-size: 28px;
+    font-weight: 500;
+    /* Roboto Medium */
+    color: #1a1a1a;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #555;
+}

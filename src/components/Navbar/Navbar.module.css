@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 128px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.logoCircle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #0057B8 50%, #FFD700 50%);
+}
+
+.logoText {
+    color: #2B2B2B;
+}
+
+.nav a {
+    margin: 0 16px;
+    text-decoration: none;
+    color: #2B2B2B;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav a.active {
+    border-bottom: 2px solid black;
+}
+
+.actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #F4B400;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+}
